@@ -1,0 +1,54 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="4">
+            <item index="0" class="java.lang.String" itemvalue="pandas" />
+            <item index="1" class="java.lang.String" itemvalue="selenium" />
+            <item index="2" class="java.lang.String" itemvalue="PyQt5" />
+            <item index="3" class="java.lang.String" itemvalue="webdriver-manager" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E711" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app.models.UserInfo.objects" />
+          <option value="app.models.Notification.objects" />
+          <option value="app.models.Page.objects" />
+          <option value="app.models.Article.objects" />
+          <option value="app.models.Support.objects" />
+          <option value="app.models.SupportCategory.objects" />
+          <option value="app.models.UserFollowing.objects" />
+          <option value="app.models.UserLikes.objects" />
+          <option value="app.models.ArticlePurchase.objects" />
+          <option value="app.models.Tipping.objects" />
+          <option value="app.models.Payment.objects" />
+          <option value="app.models.CryptoWalletBSC.objects" />
+          <option value="app.models.Withdraw.objects" />
+          <option value="app.models.Glossary.objects" />
+          <option value="app.models.Campaign.objects" />
+          <option value="app.models.CampaignEntry.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
